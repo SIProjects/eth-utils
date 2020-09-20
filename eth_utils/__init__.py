@@ -103,12 +103,12 @@ if sys.version_info.major < 3:
     warnings.simplefilter("always", DeprecationWarning)
     warnings.warn(
         DeprecationWarning(
-            "The `eth-utils-qtum` library has dropped support for Python 2. Upgrade to Python 3."
+            "The `eth-utils-sicash` library has dropped support for Python 2. Upgrade to Python 3."
         )
     )
     warnings.resetwarnings()
 
 try:
-    __version__ = pkg_resources.get_distribution("eth-utils-qtum").version
+    __version__ = pkg_resources.get_distribution("eth-utils-sicash").version
 except BaseException:
     __version__ = '1.9.5'

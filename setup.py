@@ -47,7 +47,7 @@ with open('./README.md') as readme:
 
 
 setup(
-    name='eth-utils-qtum',
+    name='eth-utils-sicash',
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
     version='1.9.5',
     description="""Common utility functions for ethereum codebases.""",
@@ -55,10 +55,10 @@ setup(
     long_description_content_type='text/markdown',
     author='Piper Merriam',
     author_email='pipermerriam@gmail.com',
-    url='https://github.com/qtumproject/eth-utils',
+    url='https://github.com/SIProjects/eth-utils',
     include_package_data=True,
     install_requires=[
-        "eth-hash-qtum>=0.1.0,<1.0.0",
+        "eth-hash-sicash>=0.1.0,<1.0.0",
         "eth-typing>=2.2.1,<3.0.0",
         "toolz>0.8.2,<1;implementation_name=='pypy'",
         "cytoolz>=0.10.1,<1.0.0;implementation_name=='cpython'",

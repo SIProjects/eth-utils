@@ -19,7 +19,7 @@ Installation
 
 .. code:: sh
 
-   pip install eth-utils-qtum
+   pip install eth-utils-sicash
 
 Development
 -----------
@@ -28,7 +28,7 @@ Clone the repository and then run:
 
 .. code:: sh
 
-   pip install -e .[dev] eth-hash-qtum[pycryptodomex]
+   pip install -e .[dev] eth-hash-sicash[pycryptodomex]
 
 Documentation
 -------------

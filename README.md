@@ -14,7 +14,7 @@ Common utility functions for codebases which interact with ethereum.
 ## Installation
 
 ```sh
-pip install eth-utils-qtum
+pip install eth-utils-sicash
 ```
 
 ## Development
@@ -22,7 +22,7 @@ pip install eth-utils-qtum
 Clone the repository and then run:
 
 ```sh
-pip install -e .[dev] eth-hash-qtum[pycryptodomex]
+pip install -e .[dev] eth-hash-sicash[pycryptodomex]
 ```
 
 ## Documentation
